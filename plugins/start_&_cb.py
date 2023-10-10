@@ -99,7 +99,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="tg://settings")
                 ],[
                 InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
                 ],[
