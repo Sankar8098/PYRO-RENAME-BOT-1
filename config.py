@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "27923601")
+    API_HASH  = os.environ.get("API_HASH", "45f49c6a237634652634858b393fb11d")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6604575620:AAF92RTy7fC4_9UVEccVrdvM6EqW-IpZPxE") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","renamerbots")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","renamerbotz")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://mdmatinashraf43:gymoW5DpuqoKf9xg@cluster0.s2falsa.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/4f5eb7d5cd528e0dbd1f3.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5970997865').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001724664296") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
