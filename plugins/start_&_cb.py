@@ -73,10 +73,10 @@ async def cb_handler(client, query: CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("💛 Fɪʟᴇ Sᴛᴏʀᴀɢᴇ Bᴏᴛ", url="t.me/MPlaylink_New_Storage_Bot")
                 ],[
-                InlineKeyboardButton("❤️‍🔥 Hᴏᴡ Tᴏ Uꜱᴇ❤️‍🔥", url='https://youtube.com')
+                InlineKeyboardButton("🤍 Oᴡɴᴇʀ", url='t.me/Md_Matin_Ashraf')
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⛔ Bᴀᴄᴋ ⛔", callback_data = "start")
             ]])            
         )
     elif data == "about":
@@ -85,9 +85,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="tg://settings")
+                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ InlineKeyboardButton", url="tg://settings")
                 ],[
-                InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
+                InlineKeyboardButton(" Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
