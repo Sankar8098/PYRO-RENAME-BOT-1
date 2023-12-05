@@ -36,11 +36,11 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Dᴇᴠ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Matiz_Techz'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Mplaylink_Support_Group')
+        InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Matiz_Techz'),
+        InlineKeyboardButton('🌿 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Mplaylink_Support_Group')
         ],[
-        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton(🥺 Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('⚙️ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -58,11 +58,11 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([[
                 InlineKeyboardButton("👨‍💻 Dᴇᴠ 👨‍💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Matiz_Techz'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Mplaylink_Support_Group')
+                InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Matiz_Techz'),
+                InlineKeyboardButton('🌿 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Mplaylink_Support_Group')
                 ],[
-                InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🥺 Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('⚙️ Hᴇʟᴩ', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -71,7 +71,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="tg://settings")
+                InlineKeyboardButton("💛 Fɪʟᴇ Sᴛᴏʀᴀɢᴇ Bᴏᴛ", url="t.me/MPlaylink_New_Storage_Bot")
                 ],[
                 InlineKeyboardButton("❤️‍🔥 Hᴏᴡ Tᴏ Uꜱᴇ❤️‍🔥", url='https://youtube.com')
                 ],[
