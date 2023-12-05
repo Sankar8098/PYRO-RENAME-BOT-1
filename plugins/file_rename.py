@@ -19,7 +19,7 @@ async def rename_start(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name  
     if file.file_size > 2000 * 1024 * 1024:
-         return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
+         return await message.reply_text("Vɪᴅᴇᴏ ɪs Lᴀʀɢᴇʀ ᴛʜᴀɴ 𝟸GB Cᴀɴ'ᴛ Uᴘʟᴏᴀᴅ Dᴏɴᴀᴛᴇ Hɪᴍ @Md_Matin_Ashraf Lɪᴛᴛʟᴇ Aᴍᴏᴜɴᴛ Oғ Mᴏɴᴇʏ Tᴏ Aᴅᴅ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴏᴜɴᴛ Fᴏʀ 𝟺GB TG Uᴘʟᴏᴀᴅs Tᴏᴛᴀʟ Aᴍᴏᴜɴᴛ Nᴇᴇᴅs 𝟹.𝟿𝟿$ = 𝟹𝟻𝟶₹ Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Yᴏᴜ Wʜᴀᴛ Yᴏᴜ Wᴀɴᴛ Tᴏ Dᴏɴᴀᴛᴇ Lɪᴋᴇ 𝟶.𝟸$ = 𝟸𝟶₹ Yᴏᴜʀ Lɪᴛᴛʟᴇ Hᴇʟᴘ Wɪʟʟ Pᴇ Aᴘᴘʀɪᴄᴀᴛᴇᴅ Aɴᴅ Wʜᴀᴛ Yᴏᴜ Dᴏɴᴀᴛᴇ Yᴏᴜ Cᴀɴ Sᴇᴇ Hᴇʀᴇ Cʜᴀɴɴᴇʟ @Matiz_Techz Wʜᴀᴛ Yᴏᴜ Dᴏɴᴀᴛᴇᴅ 𝐓𝐡𝐚𝐧𝐤𝐬")
 
     try:
         await message.reply_text(
@@ -27,7 +27,7 @@ async def rename_start(client, message):
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )       
-        await sleep(30)
+        await sleep(10)
     except FloodWait as e:
         await sleep(e.value)
         await message.reply_text(
