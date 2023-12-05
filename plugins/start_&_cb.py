@@ -39,7 +39,7 @@ async def start(client, message):
         InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Matiz_Techz'),
         InlineKeyboardButton('🌿 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Mplaylink_Support_Group')
         ],[
-        InlineKeyboardButton(🥺 Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🥺 Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('⚙️ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
