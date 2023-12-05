@@ -85,12 +85,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ InlineKeyboardButton", url="tg://settings")
+                InlineKeyboardButton("🤍 Oᴡɴᴇʀ", url="t.me/Md_Matin_Ashraf")
                 ],[
-                InlineKeyboardButton(" Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
+                InlineKeyboardButton("🤧 𝖱𝖾𝗉𝗈𝗋𝗍 𝖨𝗌𝗌𝗎𝖾", url="t.me/+jNc0h3jrt1Q0ZmE1")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⛔ Bᴀᴄᴋ ⛔", callback_data = "start")
             ]])            
         )
     elif data == "dev":
@@ -104,7 +104,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⛔ Bᴀᴄᴋ ⛔", callback_data = "start")
             ]])          
         )
     elif data == "close":
