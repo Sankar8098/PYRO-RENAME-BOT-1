@@ -101,7 +101,7 @@ async def cb_handler(client, query: CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("😆 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="tg://settings")
                 ],[
-                InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Mᴀᴋᴇ", url="https://www.google.com/search?q=how+to+create+TG+Renamer+bot")
+                InlineKeyboardButton("♻️ 𝖵𝗂𝖽𝖾𝗈 𝖬𝖾𝗋𝗀𝖾𝗋 𝖡𝗈𝗍", url="t.me/Videoxmergerbot")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("⛔ Bᴀᴄᴋ ⛔", callback_data = "start")
