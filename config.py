@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "27923601")
-    API_HASH  = os.environ.get("API_HASH", "45f49c6a237634652634858b393fb11d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6604575620:AAF92RTy7fC4_9UVEccVrdvM6EqW-IpZPxE") 
+    API_ID    = os.environ.get("API_ID", "21037450")
+    API_HASH  = os.environ.get("API_HASH", "05ac9eb7c523b83c51d89d1f2f91d58b")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6686737285:AAFS95C2rwkYtwC-dipW2ePCSTJTTiXxG5Y") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","renamerbotz")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://mdmatinashraf43:gymoW5DpuqoKf9xg@cluster0.s2falsa.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME","AniME_YoGi_LovEr")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://AniME_YoGi_LovEr:AniME_YoGi_LovEr@cluster0.bbisgsh.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/4f5eb7d5cd528e0dbd1f3.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5970997865').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001724664296") 
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1098077551').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-100132524734") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
